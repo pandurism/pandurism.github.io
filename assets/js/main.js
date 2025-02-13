@@ -139,7 +139,7 @@
    */
   document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
     let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
-    let filter = '.filter-Education';  // Set the initial active filter to Education
+    let filter = '.filter-Gallery';  // Set the initial active filter to Gallery
     let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
   
     let initIsotope;
